@@ -1,0 +1,34 @@
+# ---- OS ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- Java / Maven ----
+target/
+*.class
+*.jar
+*.war
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# ---- Node / Newman ----
+node_modules/
+npm-debug.log*
+
+# ---- Env & secrets ----
+.env
+.env.*
+config/secrets.*
+*.key
+*.pem
+
+# ---- Test artifacts ----
+test-output/
+allure-results/
+allure-report/
+screenshots/failed/
+logs/
